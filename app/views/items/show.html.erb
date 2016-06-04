@@ -2,8 +2,8 @@
   <div class="container-inner inner-sm clearfix">
     
     <% content_for :head do %>
-     <title><%= @user %> - Monolist</title>
-     <meta name="description" content="<%= @user %>の欲しいモノ、持ってるモノを表示しています。">
+     <title><%= @item.title %> - Monolist</title>
+     <meta name="description" content="<%= @item.title %>に関する情報です。この商品を欲しい人、持ってる人を表示しています。">
     <% end %>
     
     <div class="item-single-main">
